@@ -1,0 +1,15 @@
+h1{
+    color: rgb(0, 255, 98);
+}
+h2{
+    color: rgb(0, 255, 204);
+}
+p.a{
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+}
+p.b{
+    font-size: 14pt;
+    color: green;
+}
