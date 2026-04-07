@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Xóa Khách Hàng</title>
+</head>
+<body>
+    <h2>Xóa Khách Hàng Khỏi Hệ Thống</h2>
+    <form action="DeleteKhachhang.php" method="POST">
+        <label>Nhập mã khách hàng cần xóa:</label><br>
+        <input type="text" name="makh" maxlength="4" required><br><br>
+        
+        <input type="submit" value="Xóa khách hàng" onclick="return confirm('Bạn có chắc chắn muốn xóa khách hàng này không? Hành động này không thể hoàn tác!');">
+    </form>
+</body>
+</html>

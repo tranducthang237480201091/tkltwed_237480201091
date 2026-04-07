@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thêm Hàng Hóa</title>
+</head>
+<body>
+    <h2>Nhập thông tin hàng hóa mới</h2>
+    <form action="InsertHanghoa.php" method="POST">
+        <label>Mã hàng:</label><br>
+        <input type="text" name="mahang" maxlength="4" required><br><br>
+        
+        <label>Tên hàng:</label><br>
+        <input type="text" name="tenhang" maxlength="40" required><br><br>
+        
+        <label>Mã nhà sản xuất (VD: AS, DE, LE, TO):</label><br>
+        <input type="text" name="mansx" maxlength="2" required><br><br>
+        
+        <label>Năm sản xuất:</label><br>
+        <input type="text" name="namsx" required><br><br>
+        
+        <label>Giá:</label><br>
+        <input type="number" name="gia" required><br><br>
+        
+        <input type="submit" value="Chèn dữ liệu hàng hóa">
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cập nhật Khách Hàng</title>
+</head>
+<body>
+    <h2>Cập nhật thông tin Khách Hàng</h2>
+    <form action="UpdateKhachhang.php" method="POST">
+        <label>Nhập Mã khách hàng cần cập nhật (Bắt buộc):</label><br>
+        <input type="text" name="makh" maxlength="4" required><br><br>
+        
+        <hr>
+        <p><i>Nhập các thông tin mới bên dưới:</i></p>
+
+        <label>Tên khách hàng mới:</label><br>
+        <input type="text" name="tenkh" maxlength="30" required><br><br>
+        
+        <label>Năm sinh mới:</label><br>
+        <input type="number" name="namsinh" required><br><br>
+        
+        <label>Số điện thoại mới:</label><br>
+        <input type="text" name="dienthoai" maxlength="10" required><br><br>
+        
+        <label>Địa chỉ mới (VD: Giá Rai, Bạc Liêu...):</label><br>
+        <input type="text" name="diachi" maxlength="50" required><br><br>
+        
+        <input type="submit" value="Cập nhật dữ liệu">
+    </form>
+</body>
+</html>

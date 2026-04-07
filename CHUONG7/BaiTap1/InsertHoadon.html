@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thêm Hóa Đơn</title>
+</head>
+<body>
+    <h2>Nhập thông tin chi tiết Hóa Đơn</h2>
+    <form action="InsertHoadon.php" method="POST">
+        <label>Mã hóa đơn (Tối đa 3 ký tự):</label><br>
+        <input type="text" name="mahd" maxlength="3" required><br><br>
+        
+        <label>Mã khách hàng:</label><br>
+        <input type="text" name="makh" maxlength="4" required><br><br>
+        
+        <label>Mã hàng hóa:</label><br>
+        <input type="text" name="mahang" maxlength="4" required><br><br>
+        
+        <label>Số lượng:</label><br>
+        <input type="number" name="soluong" min="1" required><br><br>
+        
+        <input type="submit" value="Thêm vào hóa đơn">
+    </form>
+</body>
+</html>
